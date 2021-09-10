@@ -17,7 +17,7 @@ const io = socketio(server);
 // Set static folder to tell Express that we will be using a static file
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'wechat Bot';
+const botName = 'WeChat Bot';
 
 // Run when client connects
 io.on('connection', socket => {

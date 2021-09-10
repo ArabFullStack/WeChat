@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #f032c7;
-	--dark-color-b: #ee7ae4;
+	--dark-color-a: #406eeb;
+	--dark-color-b: #3d7aeb;
 	--light-color: #e6e9ff;
 	--success-color: #5cb85c;
 	--error-color: #b30f0a;
@@ -33,9 +33,9 @@ a {
 	cursor: pointer;
 	padding: 5px 15px;
 	background: var(--light-color);
-	color: var(--dark-color-a);
+	color: var(--dark-color-b);
 	border: 0;
-	font-size: 17px;
+	font-size: 22px;
 }
 
 /* Chat Page */
